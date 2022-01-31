@@ -1,6 +1,4 @@
 #solution 1
-sum = 0
-
 def calc(x, y, total):
     if y < 4000000:
         if y % 2 == 0:
@@ -10,7 +8,7 @@ def calc(x, y, total):
     else:
         print(total)
 
-calc(1, 2, sum)
+calc(1, 2, 0)
 
 #solution 2
 prev, cur = 0, 1
