@@ -1,3 +1,4 @@
+"""
 #solution 1
 prime_numbers = [2]
 num = 600851475143
@@ -10,6 +11,7 @@ for x in range(3, num + 1):
             prime_numbers.append(x)
 
 print(prime_numbers[len(prime_numbers) - 1])
+"""
 
 #solution 2 (less big-O complexity)
 n = 600851475143
