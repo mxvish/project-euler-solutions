@@ -24,6 +24,7 @@ print(numbers)
 """
 
 #solution2
+#0.47s user 0.17s system 135% cpu 0.471 total
 import numpy as np
 
 numbers = []
