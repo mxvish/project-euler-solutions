@@ -16,7 +16,8 @@ while count <= key:
 print(prime_numbers[len(prime_numbers)-1])
 """
 
-#solution2
+#solution2 
+#3.36s user 0.05s system 96% cpu 3.523 total
 num = 10001
 primes = [2]
 attempt = 3
