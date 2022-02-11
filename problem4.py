@@ -1,3 +1,4 @@
+# 0.25s user 0.02s system 85% cpu 0.321 total
 maxNum, x, y = 0, 0, 0
 #a, b = 100, 100
 #digit, limit = 4, 9
@@ -32,4 +33,3 @@ while len(str(a*b)) >= digit and a > limit:
     b = default_b
 
 print(x, y, maxNum)
-
