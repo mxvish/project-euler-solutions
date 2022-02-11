@@ -1,4 +1,5 @@
 #solution 1
+"""
 def calc(x, y, total):
     if y < 4000000:
         if y % 2 == 0:
@@ -9,8 +10,10 @@ def calc(x, y, total):
         print(total)
 
 calc(1, 2, 0)
+"""
 
 #solution 2
+#0.03s user 0.02s system 54% cpu 0.100 total
 prev, cur = 0, 1
 total = 0
 while cur < 4000000:
