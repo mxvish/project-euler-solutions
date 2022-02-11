@@ -14,6 +14,7 @@ print(prime_numbers[len(prime_numbers) - 1])
 """
 
 #solution 2 (less big-O complexity)
+#0.04s user 0.02s system 70% cpu 0.079 total
 n = 600851475143
 div, maxFact = 2, 0
 
