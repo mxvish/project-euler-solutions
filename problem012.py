@@ -13,5 +13,6 @@ def calc(divisorCount):
                 divisors.append(num/x)
         add += 1
     print(num)
+
 calc(500)
 #calc(5)
